@@ -15,8 +15,7 @@ var mybot = new Discord.Client();
 CHANNEL_TO_LISTEN = "null"
 mybot.on("ready", function() {
   mybot.on("message", function(message) {
-    // console.log(mybot.servers.get("id", ))
-    //Fml
+
     if (message.author.id !== "207528679931248640") {
       if (message.guild && message.channel) {
         var SERVER_ID = message.guild.id
@@ -34,7 +33,7 @@ mybot.on("ready", function() {
               if (message.content === "=ping") {
                 message.channel.sendMessage("pong!")
               } else if (message.content === "=help") {
-                message.channel.sendMessage("Hello! My name is TT142. I am a bot designed for the scammer sub lounge!\n```Version 0.2-Dev\nCommands: ping, status, help, new, delete, edit, summon, playing, blacklist, whitelist, protect, add, list, nick, source, raw\nPrefix: =\nFor further information about a command, type '=help <command>'```")
+                message.channel.sendMessage("Hello! My name is TT142.\n```Version 0.2-Dev\nCommands: ping, status, help, new, delete, edit, summon, playing, blacklist, whitelist, protect, add, list, nick, source, raw\nPrefix: =\nFor further information about a command, type '=help <command>'```")
               } else if (message.content.split(" ")[0] === "=help") {
                 var cmd = message.content.split(" ")[1]
                 if (cmd === "ping") {
