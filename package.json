@@ -1,0 +1,20 @@
+{
+  "name": "TT142",
+  "version": "0.2.0",
+  "author": "Gilbert Gobbels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TCDG/TT142.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node --max_old_space_size=450 server.js --production"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "discord.js": "^9.3.0",
+    "mysql": "^2.11.1",
+    "ping": "^0.2.0",
+    "socialblade-data": "0.0.6"
+  }
+}
