@@ -23,6 +23,7 @@ Coming soon...
 
 ## Credits
 
-  - Gilbert Gobbels, creator, coder, executive
+  - Gilbert Gobbels, creator, coder, executive.
+
 ## License
 This repo and all of it's files are licensed under the MIT license, more info can be found in LICENSE
